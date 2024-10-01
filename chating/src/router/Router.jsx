@@ -1,12 +1,10 @@
 import React from 'react'
-// import App from '../App'
 import Home from '../component/Home'
 import { RouterProvider, createBrowserRouter } from 'react-router-dom'
-import Login from '../component/Login'
 const router = createBrowserRouter([
     
     {
-        path: 'chatting',
+        path: '',
         element: <Home/>
     }
 ])

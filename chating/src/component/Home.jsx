@@ -22,7 +22,7 @@ function Home() {
     setImgUrl1(url1);
     setImgUrl2(url2);
     setMessages([]); // Clear all messages
-    navigate('/chatting'); 
+    navigate('/'); 
   };
 
   const handleLogout = () => {
@@ -31,7 +31,7 @@ function Home() {
     setImgUrl1('');
     setImgUrl2('');
     setMessages([]); // Clear messages on logout as well
-    navigate('/chatting'); // Navigate back to Login component
+    navigate('/'); // Navigate back to Login component
   };
 
   return (

@@ -13,7 +13,7 @@ function Login({ onCreateChat }) {
     const finalImgUrl2 = imgUrl2 || defaultImgUrl; // Use default if not provided
     
     onCreateChat(sender1, sender2, finalImgUrl1, finalImgUrl2); 
-    navigate('/chatting');
+    navigate('/');
   };
 
   return (
